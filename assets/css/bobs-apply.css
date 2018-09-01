@@ -1,0 +1,211 @@
+/*GENERAL*/
+body {
+    margin: auto;
+    background-color: #f3f3f3;
+}
+
+/*HEADER*/
+.header {
+    border-bottom: 1px solid #b4b4b4;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.search {
+    /*border: solid black 1px;*/
+    margin-right: 100px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.header-user {
+    float: right;
+    margin-bottom: 3%;
+}
+
+.header-imgs {
+    float: right;
+    margin-top: 25px;
+    margin-right: 5%;;
+}
+
+#burger {
+    margin-right: 10px;
+}
+
+.header ul {
+    padding: 5px;
+    margin-top: 2.5%;
+    float: left;
+}
+
+.header li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.header a:link {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-decoration: none;
+}
+
+.header a:visited {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #c32934;
+}
+
+#active {
+    color: #c32934;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#bar {
+    height: 35px;
+    vertical-align: top;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: #eeeeee;
+    color: black;
+    width: 200px;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+#magnifying-glass {
+    border: 1px solid black;
+    border-right: none;
+}
+
+#logo {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+}
+/*END HEADER*/
+
+/*CONTENT*/
+#gif {
+    float: right;
+    border: 1px solid #b4b4b4;
+    margin-right: 20px; 
+}
+
+#other {
+    vertical-align: bottom;
+    margin-left: 3px;
+}
+.content {
+    width: 980px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    background-color: #ffffff;
+    border: 1px solid #b4b4b4;
+    border-radius: 20px;
+}
+.content div {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 950px;
+    height: 65px;
+    border-bottom: 5px solid #c32934;
+    color: #000000;
+}
+
+form {
+    padding-left: 40px;
+}
+
+
+#first {
+    width: 150px;
+    position: relative;
+    margin-left: 10px;
+}
+
+#last {
+    width: 150px;
+    position: relative;
+    margin-left: 12px;
+}
+.birth input {
+    width: 25px;
+    margin-right: 10px;
+}
+#year {
+    width: 35px;
+}
+#street {
+    width: 350px;
+}
+#city {
+    width: 155px;
+}
+#state {
+    width: 85px;
+}
+#zip {
+    width: 70px;
+}
+#highschool, #college, #trade {
+    width: 225px;
+}
+#hsGrad, #colGrad, #tradeGrad {
+    width: 110px;
+}
+
+#explain {
+    margin-left: 10px;
+}
+
+input {
+    margin-bottom: 0px;
+    /*margin-left: 10px;*/
+}
+.address input, .education input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 1.7em;
+}
+.content::-webkit-input-placeholder {
+    font-size: 20px;
+    font-family: Arial;
+}
+h4 {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+#apply {
+    margin-bottom: 0px;
+}
+
+#finalMessage {
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+    color: #c32934;
+    padding-top: 40px;
+    border-top: #c32934 3px solid;
+}

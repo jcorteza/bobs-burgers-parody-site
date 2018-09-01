@@ -1,0 +1,124 @@
+/*GENERAL*/
+body {
+    margin: auto;
+    background-color: #f3f3f3;
+}
+
+/*HEADER*/
+.header {
+    border-bottom: 1px solid #b4b4b4;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.search {
+    /*border: solid black 1px;*/
+    margin-right: 100px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.header-user {
+    float: right;
+    margin-bottom: 3%;
+}
+
+.header-imgs {
+    float: right;
+    margin-top: 25px;
+    margin-right: 5%;;
+}
+
+#burger {
+    margin-right: 10px;
+}
+
+.header ul {
+    padding: 5px;
+    margin-top: 2.5%;
+    float: left;
+}
+
+.header li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.header a:link {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-decoration: none;
+}
+
+.header a:visited {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #c32934;
+}
+
+#active {
+    color: #c32934;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#bar {
+    height: 35px;
+    vertical-align: top;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: #eeeeee;
+    color: black;
+    width: 200px;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+#magnifying-glass {
+    border: 1px solid black;
+    border-right: none;
+}
+
+#logo {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    float: left;
+}
+/*END HEADER*/
+
+.content {
+    width: 980px;
+    clear: both;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial;
+    background-color: #ffffff;
+    border: 1px solid #b4b4b4;
+    border-radius: 20px;
+    padding: 10px 20px 40px 20px;
+}
+
+.red, h2 {
+    color: #c32934;
+}
+
+.content a:link {
+    text-decoration: none;
+    font-weight: bolder;
+
+}

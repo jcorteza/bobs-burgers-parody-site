@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Internal Revenue Service</title>
+        <link href="./assets/css/bobs-irs.css" type="text/css" rel="stylesheet">
+        <script language="javascript" type="text/javascript" src="./assets/js/bobs-irs.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    </head>
+    <body>
+        <img id="irs-logo" src="./assets/images/logo-irs.png">
+        <div class="navigation">
+            <a href="./index.html"><div>Watch</div></a>
+            <a href="./bobs-apply.html"><div>Apply</div></a>
+            <a href="./bobs-merchandise.html"><div>Merchandise</div></a>
+            <a href="./bobs-irs.html"><div id="active">Pay Taxes</div></a>
+            <a href="./bobs-analysis.html"><div>Analysis</div></a>
+            <div id="extra"></div>
+        </div>
+        <img id="main" src="./assets/images/main-image-irs.png">
+        <div class="main-content">
+            <div id="section-one" class="div-column">
+                <div class="orange-tab">
+                    About You
+                </div>
+                <p>Name: <br><span id="name">Your Name</span></p>
+                <p>Date of Birth: <br><span id="dob">Your Birthday</span></p>
+                <p id="address">Address:</p>
+                <span id="lineOne">Your Address</span><br>
+                <span id="lineTwo"></span>
+                <p>Works at: <br>Bob's Burgers</p>
+            </div>
+            <div id="section-two" class="div-column">
+                <div class="orange-tab">
+                    About Your Interests
+                </div>
+                <p>You&rsquo;re good at <span id="expertise">something.</p>
+                <p>You look up to <span id="mentor">Bob Belchor</span>.</p>
+                <p>You like <span id="interest">something</span>.</p>
+            </div>
+            <div id="section-three" class="div-column">
+                <div class="orange-tab">
+                    About Your Current Location
+                </div>
+                <p>Latitude: <span id="latitude"></span></p>
+                <p>Longitude: <span id="longitude"></span></p>
+                <p>Distance from our office: <span id="distance"></span></p>
+                <div id="map">Where your location on Google Maps appears once you've hit allow on the popup for accesing your location.</div>
+            </div>
+        </div>
+        <div id="reminder">
+            This is a friendly reminder to pay your taxes.
+        </div>
+    </body>
+</html>

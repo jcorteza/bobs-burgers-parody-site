@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Apply at Bob's Burgers</title>
+        <link href="./assets/css/bobs-apply.css" type="text/css" rel="stylesheet">
+        <script language="javascript" type="text/javascript" src="./assets/js/bobs-apply.js"></script>
+    </head>
+    
+    <body>
+        <div class="header">
+            <a href="#"><img id="logo" src="./assets/images/bobs-logo.jpg"></a>
+            <ul>
+                <li><a href="./index.html">Watch</a></li>
+                <li><a id="active" href="./bobs-apply.html">Apply</a></li>
+                <li><a href="./bobs-merchandise.html">Merchandise</a></li>
+                <li><a href="./bobs-irs.html">Pay Taxes</a></li>
+                <li><a href="./bobs-analysis.html">Analysis</a></li>
+            </ul>
+            <div class="header-user">
+                <div class="header-imgs">
+                    <a href="#"><img id="burger" src="./assets/images/burger.jpg"></a>
+                    <a href="#"><img src="./assets/images/tina.jpg"></a>
+                </div>
+                <div class="search">
+                    <form method="get" action="#">
+                        <input id="magnifying-glass" type="image" src="./assets/images/magnify.png" alt="search" height=33px><input id="bar" type="text" size="50" placeholder="Meat, Buns, Fries">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Work at <img id="other" src="./assets/images/bobs-bigger-logo.jpg"></h2>
+            <img id="gif" src="./assets/images/bob-works.gif">
+            <form>
+                <div class="name">
+                    <h3>Name:</h3>
+                    <h4>First:<input name="firstname" id="first" type="text"></h4>
+                    <h4>Last:<input name="lastname" id="last" type="text"></h4>
+                </div>
+                <div class="birth">
+                    <h3>D.O.B:</h3>
+                    <input name="month" id="month" type="text" placeholder="MM" maxlength="2"> / <input name="day" id="day" type="text" placeholder="DD" maxlength="2"> / <input name="year" id="year" type="text" placeholder="YYYY" maxlength="4"><br>
+                </div>
+                <div class="address">
+                    <h3>Address:</h3>
+                    <input name="address" id="street" type="text" placeholder="Street"><br>
+                    <input name="address" id="city" type="text" placeholder="City"><input name="address" id="state" type="text" placeholder="State"><input name="address" id="zip" type="text" placeholder="Zip Code"><br>
+                </div>
+                <div class="expertise">
+                    <h3>Area of Expertise:</h3>
+                    <input name="expertise" id="pranks" type="radio" checked="checked">Pranks<br>
+                    <input name="expertise" id="fanFiction" type="radio">Fanfiction<br>
+                    <input name="expertise" id="farts" type="radio">Fart Sounds<br>
+                </div>
+                <div class="mentor">
+                    <h3>Who do you look up to?</h3>
+                    <input id="bob" type="radio" name="mentor" checked="checked">Bob Belcher</br>
+                    <input id="linda" type="radio" name="mentor">Linda Belcher</br>
+                <div class="fanfiction">
+                    <h3>What is a topic you are interested in?</h3>
+                    <input id="browserTopic" type="text">
+                </div>
+                <!--<div class="question">
+                    <h3>I should be hired to work at Bob&rsquo;s Burgers because I'm<input name="explain" id="explain" type="text" placeholder="Adjective">.</h3>
+                </div>-->
+                <input name="apply" id="apply" type="button" value="Get Hired!">
+            </form>
+        </div>
+        <div id="finalMessage">
+            <p>Thanks applicant for applying to work at Bob's Burgers!</p>
+        </div>
+    </body>
+</html>

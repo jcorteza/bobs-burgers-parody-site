@@ -1,0 +1,149 @@
+html {
+    background-image: url("../images/background-irs.png");
+    background-repeat: repeat-x;
+}
+
+body {
+    background-color: #ffffff;
+    width: 980px;
+    margin: auto;
+    position:relative;
+}
+
+
+/* HEADER */
+.navigation {
+    height: 35px;
+    padding: 0px;
+    margin-top: 10px
+}
+
+.navigation div {
+    display: inline;
+    background-image: url("../images/background-navigation.png");
+    background-repeat: repeat-x;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 4px 10px 4px 10px;
+    margin-left: 0px;
+    margin-right: -3px;
+}
+
+.navigation a:link {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navigation a:visited {
+    color: #333333;
+}
+
+.navigation a:hover div {
+    background-image: none;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
+    padding: 4px 9px 4px 9px;
+    border-bottom: 0px;
+
+}
+
+#main {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#irs-logo {
+    margin-top: 0px;
+}
+
+#extra {
+    padding-right: 545px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    
+}
+
+#active {
+    background-image: none;
+    background-color: #ffffff;
+    padding: 4px 10px 4px 10px;
+    color: #ff4600;
+    border: none;
+}
+
+/* END HEADER */
+
+
+/* MAIN CONTENT*/
+
+.orange-tab {
+    margin-top: 20px;
+    background-image: url("../images/orange-tab.png");
+    background-repeat: repeat-x;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;  
+    box-sizing: border-box;  
+}
+
+p {
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1e548a;
+}
+
+#lineOne, #lineTwo {
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1e548a;
+}
+
+#address {
+    margin-bottom: 0px;
+}
+
+#section-one, #section-two {
+    float: left;
+    width: 32%;
+}
+
+#section-three {
+    float: right;
+    width: 32%;
+}
+
+#section-two {
+    margin-left: 2%;
+}
+
+.div-column {
+    margin-bottom: 3%;
+}
+
+#reminder {
+    background-color: #1e548a;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    clear: both;
+}
+
+#map {
+    width: 95%;
+    height: 40%;
+    border: 1px black solid;
+    margin-left: 2.5%;
+}
+/* END MAIN CONTENT */

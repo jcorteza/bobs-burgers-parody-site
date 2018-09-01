@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Bob's Burgers</title>
+        <link href="./assets/css/bobs-netflix.css" type="text/css" rel="stylesheet">
+        <script language="javascript" type="text/javascript" src="./assets/js/bobs-netflix.js"></script>
+    </head>
+    
+    <body>
+        <div class="header">
+            <a href="#"><img id="logo" src="./assets/images/bobs-logo.jpg"></a>
+            <ul>
+                <li><a id="active" href="./index.html">Watch</a></li>
+                <li><a href="./bobs-apply.html">Apply</a></li>
+                <li><a href="./bobs-merchandise.html">Merchandise</a></li>
+                <li><a href="./bobs-irs.html">Pay Taxes</a></li>
+                <li><a href="./bobs-analysis.html">Analysis</a></li>
+            </ul>
+            <div class="header-user">
+                <div class="header-imgs">
+                    <a href="#"><img id="burger" src="./assets/images/burger.jpg"></a>
+                    <a href="#"><img src="./assets/images/tina.jpg"></a>
+                </div>
+                <div class="search">
+                    <form method="get" action="#">
+                        <input id="magnifying-glass" type="image" src="./assets/images/magnify.png" alt="search" height=33px><input id="bar" type="text" size="50" placeholder="Meat, Buns, Fries">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <a href="#"><img src="./assets/images/netflix-main-img.png" id="main-img"></a>
+            <a href="#"><img src="./assets/images/netflix-main-info.png" id="2nd-img"></a>
+            <div id="resultsSection">
+            <p>You have searched <span id="browserSearchNumber">totalSearches</span> time(s).</p>
+            <p>The most recent search was &ldquo;<span id="browserRecentSearch">recentSearch</span>.&rdquo;</p>
+            </div>
+        </div>
+    </body>
+</html>
